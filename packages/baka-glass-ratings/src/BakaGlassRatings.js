@@ -54,7 +54,6 @@ const css = `
     width: 100px;
     height: 100px;
     display: inline-block;
-    background: red;
     border-radius: 50%;
     text-align: center;
     line-height: 100px;
