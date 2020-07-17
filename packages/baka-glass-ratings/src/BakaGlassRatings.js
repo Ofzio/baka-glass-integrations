@@ -73,7 +73,12 @@ if (style.styleSheet){
   style.appendChild(document.createTextNode(css));
 }
 
-fetch(window.bakaGlassConfig.url + '/api/integrations/ratings')
+fetch(window.bakaGlassConfig.url + '/api/integrations/ratings', {
+	mode: 'cors',
+  headers: {
+  	'Accept': 'application/json'
+  }
+})
   .then(response => response.json())
   .then(data => {
     grade.appendChild(document.createTextNode(data.average))
