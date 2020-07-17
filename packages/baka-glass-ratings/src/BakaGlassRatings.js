@@ -40,6 +40,7 @@ const css = `
     padding-right: 25px;
     vertical-align: top;
     margin-top: 15px;
+    text-align: left;
   }
   .baka-glass-ratings-title-root > h3 {
     margin-top: 0;
